@@ -1,10 +1,10 @@
 <?php
 return [
         'driver'    => 'mysql',
-        'host'      => '127.0.0.1',
+        'host'      => '192.168.1.121',
         'database'  => 'test',
-        'username'  => 'root',
-        'password'  => 'root',
+        'username'  => 'pig',
+        'password'  => '123456',
         'charset'   => 'utf8',
         'collation' => 'utf8_general_ci',
         'prefix'    => ''
