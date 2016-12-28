@@ -20,9 +20,9 @@ class file
          */
         if(!is_dir($this->path.date("Ymd"))){
             //创建文件和文件权限
-            mkdir($this->path.date("Ymd"),"0777",true);
+            mkdir($this->path.date("Ymd"));
         }
-        chmod($this->path.date("Ymd"),"0777");
+        // chmod($this->path.date("Ymd"),"0777");
         //写入日志拼接我们日志存放的位置
         return file_put_contents($this->path.date("Ymd")."/".$file.".php",date("Y-m-d H:i:s").json_encode($message).PHP_EOL,FILE_APPEND);
     }
