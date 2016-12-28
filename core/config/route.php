@@ -1,5 +1,5 @@
 <?php
 return array(
-    "CTRL"=>"index",
+    "CTRL"=>"Index",
     "ACTION"=>"index",
 );

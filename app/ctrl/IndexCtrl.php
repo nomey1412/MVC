@@ -5,7 +5,6 @@ class indexCtrl extends \core\imooc
 {
     public function index()
     {
-        $data = "Holle view";
         $title = "Holle";
         $this->view("index",['title'=>$title]);
     }
