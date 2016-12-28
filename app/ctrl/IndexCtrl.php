@@ -13,6 +13,6 @@ class indexCtrl extends \core\imooc
         $res = DB::table("girl")->get();
 
 //dump($data);die;
-        $this->view('index',['data'=>$res]);
+        $this->view('index',['title'=>$res]);
     }
 }
