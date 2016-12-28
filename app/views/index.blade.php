@@ -6,10 +6,10 @@
 </head>
 <body>
 <h1>这是视图文件</h1>
-@forerch($title as $key)
+<?php foreach ($title as $key ) {?>
 <h3>{{ $key->name }}</h3>
 <h3>{{ $key->pwd }}</h3>
 <h3>{{ $key->sex }}</h3>
-@endforeach
+<?php }?>
 </body>
 </html>
