@@ -1,7 +1,7 @@
 <?php
 namespace app\ctrl;
 use Illuminate\Database\Capsule\Manager as DB;
-class indexCtrl extends \core\imooc
+class IndexCtrl extends \core\imooc
 {
     public function index()
     {
